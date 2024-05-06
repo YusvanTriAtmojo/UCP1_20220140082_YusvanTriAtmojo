@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICTURE NMIXX</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navigasi">
+        <a class="texts">WEBMIXX</a>
+        <a href="index.html" id="home" class="link active">
+            Home
+        </a>
+        <div class="dropdown">
+            <a href="#" id="nmixx" class="link">
+                Member NMIXX ⏬ <i class="nmixx1"></i>
+            </a>
+            <div class="konten">
+                <a href="member.html">NMIXX</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#" id="nmixx" class="link">
+                NMIXX ⏬ <i class="nmixx1"></i>
+            </a>
+            <div class="konten">
+                <a href="song.html"> SONG NMIXX</a>
+                <a href="picture.html">PIC GROUP</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class="text">
+                
+                <div class="carousel-container">
+                    <center>
+                    <buttonc class="prev" onclick="prevSlide()">◀</buttonc>
+                    <div class="carousel">
+
+                        <div class="gmbr" style="display: block;">
+                            <img src="https://cdn.idntimes.com/content-images/post/20220223/flizwkyucamjvkt-cd8db57697c21e8ce2b65cd5739638fe_600x400.jpg" alt="Image 1">
+                        </div>
+                        <div class="gmbr" style="display: none;">
+                            <img src="https://images.tokopedia.net/img/cache/700/hDjmkQ/2023/7/3/81d165b8-53d9-411c-a509-9e31df39f0c9.jpg" alt="Image 2">
+                        </div>
+                        <div class="gmbr" style="display: none;">
+                            <img src="https://assets.promediateknologi.id/crop/16x235:2047x1535/750x500/webp/photo/2023/02/20/NMIXX-NSWER-4183384040.jpeg" alt="Image 3">
+                        </div>
+                        
+                    </div>
+                    <buttonc class="next" onclick="nextSlide()">▶</buttonc>
+                </center>
+                </div>
+                <p id="waktu">Jam Sekarang: 18.43.49</p>
+                <p class="salam" id="salam">Hallo Selamat Sore Kawan! 🌅</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer1">
+            <p>SOCIAL MEDIA</p>
+            <div class="sosmed">
+                <a href="https://www.instagram.com/nmixx_official/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/c/nmixxofficial"><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/NMIXX_official?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="waktu.js"></script>
+</body>
+</html>
